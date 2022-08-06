@@ -1,0 +1,95 @@
+@import "variables.scss";
+@import "mixins.scss";
+.wrapper{
+  margin-top: 20px;
+}
+.text{
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: $textcolor;
+}
+.text2{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: $textcolor;
+}
+.textsizing{
+  border-color: red;
+}
+.bar {
+  color: $textcolor;
+  background-color: $bgcolor;
+  box-sizing: border-box;
+  width: 1109px;
+  height: 60px;
+  border: 1px solid $textcolor;
+}
+.tobut{
+  display: flex;
+  background-color: $bgcolor;
+}
+.but{
+  background-color: $bgcolor;
+  border: 1px solid $textcolor;
+  width: 75px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.MiniS{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.miniInput{
+  display: flex;
+  flex-direction: column;
+}
+.minibut{
+  background-color: $bgcolor;
+  border: 1px solid $textcolor;
+  width: 35px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.inputNbut{
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+}
+.miniInput1{
+  background-color: $bgcolor;
+  border: 1px solid $textcolor;
+}
+.findBut{
+  margin-top: 40px;
+  padding: 10px;
+  width: 200px;
+  border: 1.5px solid;
+  font-size: 20px;
+  text-align: center;
+  border-image-source: linear-gradient(to left, #C5900A,#181715 );
+  border-image-slice: 20;
+}
+.miniText{
+  background: radial-gradient(96.58% 729.03% at 84.05% 15.75%, rgba(158, 95, 21, 0.9) 0%, rgba(255, 196, 43, 0.816328) 33.62%, rgba(244, 175, 94, 0.747) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+  width: 200px;
+  height: 100%;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.goldbut{
+  display: flex;
+  justify-content: space-between;
+}
